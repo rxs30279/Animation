@@ -1,0 +1,41 @@
+
+
+
+
+
+
+@keyframes ChangeBackground {
+    
+    0% {
+        transform: translateX(-45vw);
+       
+    }
+
+    25% {
+        transform: translateX(500%);
+
+    }
+
+    50% {
+        transform: translateY(1000%);
+    }
+
+    60% {
+        transform: translate(500%, 1000%);
+    }
+
+    100% {
+        transform: translate(500%,-1000%);
+        background-color: grey;
+    }
+
+}
+
+div {
+    display: inline-block;
+    height: 70px;
+    width:70px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: ChangeBackground  14s ease infinite;
+}
